@@ -1,0 +1,43 @@
+name: surveyor_cam
+description: A specialized photography app for surveyors with nested folders and AI OCR capabilities
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.5
+  path_provider: ^2.1.1
+  permission_handler: ^11.0.1
+  external_path: ^2.2.0
+  google_mlkit_text_recognition: ^0.11.0
+  sensors_plus: ^4.0.2
+  intl: ^0.19.0
+  device_info_plus: ^10.1.0
+  pro_image_editor: ^11.15.5
+  package_info_plus: ^8.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon_foreground.png" # Fallback
+  min_sdk_android: 21
+  adaptive_icon_background: "#0D0D0D" # Matte Black
+  adaptive_icon_foreground: "assets/icon_foreground.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/launcher/
+    - assets/icon_foreground.png
+
