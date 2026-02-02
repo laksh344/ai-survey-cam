@@ -2,7 +2,7 @@
 
 **A specialized photography app for surveyors featuring nested folder organization, AI OCR capabilities, and professional field tools.**
 
-![Surveyor Cam Screenshots](app-screenshots.png)
+![Surveyor Cam Screenshots](Cream-Neutral-Minimalist-New-Business-Pitch-Deck-Presentation.png)
 > *From left to right: Main Camera UI with Level Gauge, Creating a Nested Folder, Breadcrumb Navigation (Project > Line), and Folder Details View.*
 
 ## 🚀 Features
@@ -84,3 +84,4 @@ lib/
     ├── level_gauge.dart       # Tilt indicator
     ├── quick_tags.dart        # Tag buttons
     └── control_panel.dart     # Bottom controls
+
